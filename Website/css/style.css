@@ -7027,6 +7027,7 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Fifty One ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-fiftyOne{
   padding-top: 100px;
+  background: azure;
 }
 .fancy-feature-fiftyOne h6 {font-size: 20px;color: var(--prime-ten);}
 .fancy-feature-fiftyOne .text-lg {line-height: 2.08em;}
@@ -7917,6 +7918,10 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
 }
 .team-block-three:hover:before {opacity: 1;}
 /*^^^^^^^^^^^^^^^^^^^^^ Contact Section Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+.contact-section-one{
+  background: azure;
+}
 .contact-section-two {
   background: #fff;
   border-radius: 20px;
