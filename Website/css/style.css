@@ -8253,3 +8253,32 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
 .form-style-five ::placeholder {color: #fff;}
 .form-style-five [class*="btn-"] {font-size: 14px; letter-spacing: 0.88px;}
 .form-style-five [class*="btn-"]:hover {background: var(--prime-eight); color: #000;}
+
+.flex-custom{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ gap: 0px;
+}
+@media (max-width: 768px) {
+  .flex-custom {
+    flex-wrap: wrap;
+  }
+}
+
+.contactinfo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mapDisplay{
+  width: 100%;
+}
+.contactBoxContent{
+  width: auto;
+}
+/* .mapDisplay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
