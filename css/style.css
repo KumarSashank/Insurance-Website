@@ -2149,6 +2149,46 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
 }
 .slick-arrow-two li:hover {transform: scale(1.1);}
 /*^^^^^^^^^^^^^^^^^^^^^ Partner Section One ^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+.row op-1{
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.partner-1{
+  display: flex;
+  flex-direction: column;
+  scroll-margin-top: 100px;
+}
+.partners-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Adjust this value as needed */
+}
+.partner-section-six {
+  scroll-margin-top: 150px; /* Adjust this value to match the height of your navbar */
+}
+
+.imgcontainer1, .imgcontainer2{
+  display: flex;
+  flex-direction: row;
+}
+
+.partners-wrapper img {
+  height: 80px;
+  margin: 0 20px;
+  object-fit: contain;
+}
 .partner-section-one .img-box a {display: block;height: 100%;}
 .partner-section-one .img-box img {
   position: relative;
