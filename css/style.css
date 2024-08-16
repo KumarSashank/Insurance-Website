@@ -5450,7 +5450,7 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Ten ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .hero-banner-ten {
-  padding: 230px 0 90px;
+  padding: 150px 0 90px;
 }
 .hero-banner-ten .hero-heading {font-size: 90px; line-height: 1.22em;}
 .hero-banner-ten .hero-heading span {color: var(--prime-ten);}
