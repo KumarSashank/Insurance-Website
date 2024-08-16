@@ -49,9 +49,9 @@
 ====================================================================
 
  ***/
-::-webkit-scrollbar{ width: 5px; }
-::-webkit-scrollbar-track { background: #cdcdcd;}
-::-webkit-scrollbar-thumb { background: #54A6DE;border-radius: 0;}
+/* ::-webkit-scrollbar{ width: 5px; }
+::-webkit-scrollbar-track { background: #cdcdcd;} */
+/* ::-webkit-scrollbar-thumb { background: #54A6DE;border-radius: 0;} */
 :root {
   --text-color    : #48494E;
   --heading       : #090F32;
