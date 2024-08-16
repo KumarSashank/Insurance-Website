@@ -50,8 +50,8 @@
 
  ***/
 ::-webkit-scrollbar{ width: 5px; }
-::-webkit-scrollbar-track { background: #fff;}
-::-webkit-scrollbar-thumb { background: #000;border-radius: 0;}
+::-webkit-scrollbar-track { background: #cdcdcd;}
+::-webkit-scrollbar-thumb { background: #54A6DE;border-radius: 0;}
 :root {
   --text-color    : #48494E;
   --heading       : #090F32;
@@ -8300,3 +8300,15 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
   justify-content: center;
   align-items: center;
 } */
+
+.custom_footer{
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+.custom_footer_anchor{
+  pointer-events: none;
+}
+.botton_custom_footer{
+  margin-top: 50px;
+}
