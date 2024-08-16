@@ -216,16 +216,16 @@ p {line-height: 1.87em;}
 .dark-bg-one {background: #151937;}
 /*^^^^^^^^^^^^^^^^^^^^ Scroll Top ^^^^^^^^^^^^^^^^^^^^^*/
 .scroll-top {
-  width:35px;
-  height:35px;
+  width:50px;
+  height:50px;
   line-height: 35px;
   position: fixed;
   bottom: 20px;
-  right: 5px;
+  right: 10px;
   z-index: 99;
   text-align: center;
   color: #fff;
-  font-size: 25px;
+  font-size: 35px;
   cursor: pointer;
   border-radius: 50%;
   background: var(--prime-ten);
@@ -1738,6 +1738,11 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
   line-height: 40px;
   transition: all 0.3s ease-in-out;
 }
+.theme-basic-footer .footer-text {
+  font-size: 17px;
+  color : rgba(255, 255, 255, 0.7);
+  line-height: 40px;
+}
 .footer-style-one .shape-one {
   width: 85px;
   height: 85px;
@@ -1779,6 +1784,38 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
   background: #161616;
 }
 .theme-basic-footer .form-widget form button:hover {background: var(--prime-six); color: #000;}
+/*^^^^^^^^^^^^^^^^^^^^^ Sub Container ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.footer-style-subcontainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.footer-style-subcontainer .inner-wrapper {
+  flex-grow: 1;
+}
+.sub-container {
+  background-color: #3A75B8;
+  padding: 10px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+}
+.sub-container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-container .col-md {
+  flex: 1;
+  text-align: center;
+  margin: 0 10px;
+}
+.sub-container h5 {
+  margin: 0;
+  font-size: 15px;
+  color: #fff;
+}
+.sub-container .social
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .hero-banner-two {z-index: 1;}
 .hero-banner-two .shape-left {

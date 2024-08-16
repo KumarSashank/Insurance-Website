@@ -1,0 +1,359 @@
+ /*     General overwrite     */
+
+ :root {
+    --primary: #54A6DE;
+    --primaryLite: #b9efd0;
+    --primaryDark: : #3A75B8;
+    --primaryBG: #f5f7f6;
+    --secondary: #fcd770;
+    --grey: #666666;
+    --greyLite: #d8d8d8;
+    --greyLighter: #eaeaea;
+    --white: #ffffff;
+    --black: #000000;
+  }
+ 
+ 
+  body {
+    background: #ffffff !important;
+    color: #66615b;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+     supported by Chrome and Opera */
+  }
+  a {
+   text-decoration: none!important;
+  }
+ 
+  /* a {
+    color: #51bcda;
+  }
+ 
+  a:hover,
+  a:focus {
+    color: #2ba9cd;
+    text-decoration: none;
+  } */
+ 
+  hr {
+    border-color: #F1EAE0;
+  }
+ 
+  .icon {
+    fill: #66615b;
+  }
+ 
+  .fa-base {
+    font-size: 1.25em !important;
+  }
+ 
+  /* a:focus,
+  a:active,
+  button::-moz-focus-inner,
+  input[type="reset"]::-moz-focus-inner,
+  input[type="button"]::-moz-focus-inner,
+  input[type="submit"]::-moz-focus-inner,
+  select::-moz-focus-inner,
+  input[type="file"]>input[type="button"]::-moz-focus-inner {
+    outline: 0;
+  } */
+ 
+  .ui-slider-handle:focus,
+  .navbar-toggle {
+    outline: 0 !important;
+  }
+ 
+ 
+  .profile-content {
+    position: relative;
+  }
+ 
+ 
+  .profile-content .tab-content .tab-pane {
+    min-height: 200px;
+  }
+ 
+  .profile-content .tab-content #tweets,
+  .profile-content .tab-content #connections,
+  .profile-content .tab-content #media {
+    height: 100%;
+  }
+ 
+ 
+  /* motor */
+  .right-content-p {
+    padding: 20px;
+  }
+ 
+  .p20 {
+    padding: 10px;
+  }
+ 
+  .right-content-p h2 {
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+  }
+ 
+  .right-content-p h3 {
+    color: var(--primary) !important;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+  }
+ 
+  .right-content-p p {
+    color: #231F20;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 27px;
+  }
+ 
+  .number {
+    color: var(--primary) !important;
+  }
+ 
+  .moter-s p {
+    color: #231F20;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0px;
+  }
+ 
+  .moter-s h4 {
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 800;
+  }
+ 
+  .moter-content h2 {
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 800;
+    margin: 10px 0px;
+  }
+ 
+  .moter-content h1 {
+    color: var(--primary);
+    font-size: 28px;
+    font-weight: 800;
+    margin: 20px 0;
+  }
+ 
+  .moter-content p {
+    color: #231F20;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+ 
+  .reach h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+ 
+  .reach p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+ 
+  .reach a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+ 
+  .footer {
+    background: var(--primary);
+    padding: 30px;
+    float: left;
+    width: 100%;
+  }
+ 
+  .btn-round-2 {
+    background: var(--primary) !important;
+    border-radius: 30px;
+  }
+ 
+  .moter-content h3 {
+    font-weight: 800;
+    color: #000;
+    font-size: 18px;
+  }
+ 
+  .ml-30 {
+    margin-left: 30px;
+  }
+ 
+  .h30 {
+    height: 40px;
+    width: 150px;
+  }
+ 
+ 
+  .moter-content {
+    font-size: 16px !important;
+    font-weight: normal !important;
+  }
+ 
+  .sticky-social {
+    position: fixed;
+    top: 20px;
+    left: -40px;
+    padding: 0px;
+    margin: 0px;
+  }
+ 
+  .sticky-social {
+    position: fixed;
+    top: 20px;
+    left: -40px;
+    padding: 0px;
+    margin: 0px;
+  }
+ 
+  .social {
+    list-style: none;
+  }
+ 
+  .social li {
+    padding: 10px 10px;
+    font-size: 25px;
+    transition: all 0.8s ease-in-out;
+  }
+ 
+  .social li:hover {
+    margin-right: -30px;
+    box-shadow: 2px 5px 10px grey;
+  }
+ 
+  .social li:hover .fa {
+    margin-left: 20px;
+ 
+  }
+ 
+  .fa {
+    color: #fff;
+    transition: all 0.8s ease-in-out;
+  }
+ 
+  .fb {
+    background-color: var(--primary);
+  }
+ 
+  .twitter {
+    background-color: var(--primary);
+  }
+ 
+  .insta {
+    background-color: #DC4F42;
+  }
+ 
+  .pin {
+    background-color: #CB2128;
+  }
+ 
+  .vim {
+    background-color: #59BFBE;
+  }
+ 
+  .container-fluid {
+    Padding-left: 0px !important;
+  }
+ 
+  .btniceinsurance {
+    border: 2px solild white;
+    color: white;
+ 
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+  /* footer */
+ 
+  .footer {
+    background: var(--primary);
+    color: var(--white);
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+  }
+ 
+  .footer h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 15px;
+  }
+ 
+  .footer a {
+    color: var(--white);
+    text-decoration: none;
+  }
+ 
+  .footer a:hover {
+    color: var(--primaryLite);
+  }
+ 
+  .footer .row1 {
+    padding: 60px 0;
+  }
+ 
+  .footer .row2 {
+    background-color: var(--primaryDark);
+    padding: 20px 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+  }
+ 
+  .footer .social-icon {
+    display: inline-block;
+    padding: 0 0 0 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 14px;
+  }
+ 
+  .footer .social-icon.instagram {
+    background-image: url('/assets/img/social-icon-instagram.svg');
+  }
+ 
+  .footer .social-icon.linkedin {
+    background-image: url('/assets/img/social-icon-linkedin.svg');
+  }
+ 
+  .footer .social-icon.facebook {
+    background-image: url('/assets/img/social-icon-facebook.svg');
+  }
+ 
+  .footer .social-icon.twitter {
+    background-image: url('/assets/img/social-icon-twitter.svg');
+  }
+ 
+ 
+  .privacy{
+   padding: 0 2% 0% 10%;
+  }
