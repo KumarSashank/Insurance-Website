@@ -7928,14 +7928,14 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Inner Banner Three ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .inner-banner-three .bg-wrapper {
-  background: url(../images/assets/bg-16.svg) no-repeat top center;
+  /* background: url(../images/assets/bg-16.svg) no-repeat top center; */
   background-size: cover;
-  padding: 150px 0 108px;
+  padding: 100px 0 108px;
   position: relative;
   z-index: 1;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Fifty Four ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.fancy-feature-fiftyFour .bg-wrapper {background: #E8FAF3;}
+.fancy-feature-fiftyFour .bg-wrapper {background: #00DFEF;}
 .fancy-feature-fiftyFour .shape-one {top: 15%; left: 9%;}
 .fancy-feature-fiftyFour .shape-two {top: 5%; right: 35%;}
 .fancy-feature-fiftyFour .shape-three {top: 50%; right: 4%;}
