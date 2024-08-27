@@ -8399,3 +8399,32 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
+.custom_card_h4{
+
+  width: auto;
+	margin-top: 30px;
+	margin-bottom: 0px;
+  color: #444444;
+  font-size: 1vw;
+  
+}
+
+.card-style-sixteen{
+  height: 180px;
+}
+@media (max-width: 768px) {
+  .custom_card_h4{
+    font-size: 3.7vw
+  }
+  .card-style-sixteen{
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 160px;
+    
+  }
+}
+
+.service_box{
+  border-color: gray;
+}
