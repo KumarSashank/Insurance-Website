@@ -8394,3 +8394,8 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
 .custom_h3_color{
   color:#343434;
 }
+
+.custom_padding{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
