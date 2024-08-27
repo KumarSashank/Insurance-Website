@@ -8033,7 +8033,7 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
 .form-style-three ::-webkit-input-placeholder {color: #000;}
 .form-style-three :-ms-input-placeholder { color: #000;}
 .form-style-three ::placeholder {color: #000;}
-.address-block-three .icon {width: 35px; margin-top: 7px;}
+.address-block-three .icon {width: 35px; margin-top: 0px;}
 .address-block-three .icon img {margin-left: auto;}
 .address-block-three .text {width: calc(100% - 35px); padding-left: 30px;}
 .address-block-three .title {
@@ -8336,6 +8336,8 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
   justify-content: space-evenly;
   align-items: center;
  gap: 0px;
+ padding-bottom: 0px;
+ padding-top: 0px;
 }
 @media (max-width: 768px) {
   .flex-custom {
@@ -8345,7 +8347,6 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
 
 .contactinfo{
   padding-left: 20px;
-  padding-top: 80px;
   width: 100%;
   display: flex;
   justify-content: flex-start;
