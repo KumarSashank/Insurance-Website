@@ -8050,7 +8050,7 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
   color: #878787;
   margin-bottom: 0;
 }
-.address-block-three p .call {font-size: 1vw; color: var(--prime-two); margin-top: 3px;}
+.address-block-three p .call {font-size: 1vw; color: #878787; margin-top: 3px;}
 
 
 .address-block-three p .call:hover {text-decoration: underline;}
