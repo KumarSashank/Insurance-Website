@@ -8440,6 +8440,10 @@ height: 600px;}
     height: 160px;
     
   }
+  .text{
+    width: fit-content;
+    text-align: justify;
+  }
   
 }
 
