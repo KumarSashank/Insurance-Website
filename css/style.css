@@ -8438,11 +8438,7 @@ height: 600px;}
     height: 160px;
     
   }
-  .illustration-one{
-    height: 300px;
-    width: auto;
-    z-index: -2;
-  }
+  
 }
 
 .service_box{
@@ -8475,5 +8471,24 @@ height: 600px;}
   .custom_h3_color{
     color:#343434;
     font-size: 0.9em;
+  }
+  .hero-banner-ten .illustration-one{
+    top: 320px ;
+    height: 250px;
+    width: auto;
+    z-index: -2;
+  }
+  .hero-banner-ten .illustration-two{
+    top: 320px ;
+    height: 250px;
+    width: auto;
+    z-index: -2;
+  }
+  .fancy-feature-fiftyOne{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .fancy-feature-thirtySix{
+    padding-top: 20px;
   }
 }
