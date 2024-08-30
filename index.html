@@ -837,11 +837,10 @@
 
 			<!-- 
 			=============================================
-				Feature Section Thirty Eight
+				Feature Section Thirty Eight   (Our Partners Section)
 			============================================== 
 			-->
  <!-- /.fancy-feature-thirtyEight -->
-
 
 <!-- Our Partners -->
 
@@ -937,57 +936,39 @@
 			<!-- </div> -->
 		</div>
 	</div> <!-- /.container -->
-</div> <!-- /.partner-section-six -->
-</div> <!-- /.fancy-feature-thirtyEight -->
 
+</div> <!-- /.partner-section-six -->
+
+<style>
+    .imgcontainer1 {
+        display: flex;
+        white-space: nowrap;
+    }
+
+    .imgcontainer1 img {
+        padding: 0 10px; /* Adjust the padding as needed */
+        height: auto; /* Maintain aspect ratio */
+        max-height: 60px; /* Optional: Set a max height if you want to constrain the size */
+    }
+</style>
 
 <script>
-    // Example arrays of image filenames for each container
     const imageFilelinks1 = [
-	'https://www.glideinsurance.com/assets/img/partner-logo-national.jpg', //National
-	'https://bsmedia.business-standard.com/_media/bs/img/article/2024-05/10/full/1715328135-6262.png?im=FeatureCrop,size=(826,465)' ,//go digit
-	'https://www.glideinsurance.com/assets/img/max-life.png', //MaxLife
-	'https://www.glideinsurance.com/assets/img/partner-logo-star.png', // Star
-	'https://upload.wikimedia.org/wikipedia/commons/9/90/Care_health_insurance_logo.png', //Care
-
-        
+        'https://www.glideinsurance.com/assets/img/partner-logo-national.jpg',
+        'https://media.assettype.com/barandbench%2F2023-06%2F56d2bdf3-c3af-467f-a4c4-61b02994aa9a%2FWhatsApp_Image_2023_06_13_at_14_58_21.jpeg?w=1200&auto=format%2Ccompress&fit=max',
+        'https://www.glideinsurance.com/assets/img/max-life.png',
+        'https://www.glideinsurance.com/assets/img/partner-logo-star.png',
+        'https://upload.wikimedia.org/wikipedia/commons/9/90/Care_health_insurance_logo.png',
+        // More URLs...
     ];
 
-    const imageFilelinks2 = [
-		'https://www.glideinsurance.com/assets/img/max-life.png',
-		'https://www.glideinsurance.com/assets/img/parthner-icici.png',
-		'https://www.glideinsurance.com/assets/img/partner-iffco-tokio-logo-english.svg',
-		'https://www.glideinsurance.com/assets/img/partner-kotak-logo.png',
-		'https://www.glideinsurance.com/assets/img/partner-logo-eedelweiss.jpg',
-		'https://www.glideinsurance.com/assets/img/partner-logo-generali.png',
-		'https://www.glideinsurance.com/assets/img/shriram.png',
-		'https://www.glideinsurance.com/assets/img/partner-logo-hdfc.png',
-		'https://www.glideinsurance.com/assets/img/partner-logo-national.jpg',
-		'https://www.glideinsurance.com/assets/img/partner-logo-oriental.png',
-		'https://www.glideinsurance.com/assets/img/partner-logo-sbi.svg',
-		'https://www.glideinsurance.com/assets/img/partner-logo-tata.png',
-		'https://www.glideinsurance.com/assets/img/royal_sundaram.avif',
-		'https://www.glideinsurance.com/assets/img/united-india.png',
-        // Add more filenames
-		'https://www.glideinsurance.com/assets/img/Liberty_Insurance.png', 
-        'https://www.glideinsurance.com/assets/img/ShriramLifeInsurance.png',
-		'https://www.glideinsurance.com/assets/img/bajaj.png',
-		'https://www.glideinsurance.com/assets/img/hdfc-ergo.png',
-		'https://www.glideinsurance.com/assets/img/magmahdiforhome.svg',
-		'https://www.glideinsurance.com/assets/img/partner-il-logo.png',
-		'https://www.glideinsurance.com/assets/img/partner-lic-logo.svg',
-		'https://www.glideinsurance.com/assets/img/partner-logo-new_india.png',
-		'https://www.glideinsurance.com/assets/img/partner-logo-niva.png',
-		'https://www.glideinsurance.com/assets/img/partner-logo-reliance.png',
-		'https://www.glideinsurance.com/assets/img/partner-logo-star.png',
-		'https://www.glideinsurance.com/assets/img/pramerica.png',
-		'https://www.glideinsurance.com/assets/img/raheja.webp',
-    ];
-
-    // Function to load images into a specific container
     function loadImages(wrapperClass, images) {
         const wrapper = document.querySelector('.' + wrapperClass);
-        images.forEach(filename => {
+        
+        // Create a copy of the images array to append
+        const imagesArray = [...images, ...images]; 
+
+        imagesArray.forEach(filename => {
             const img = document.createElement('img');
             img.src = filename;
             img.alt = 'Partner Logo';
@@ -995,11 +976,8 @@
         });
     }
 
-    // Load images into each container separately
     loadImages('imgcontainer1', imageFilelinks1);
-    loadImages('imgcontainer2', imageFilelinks2);
 </script>
-
 
 
 
